@@ -1,0 +1,76 @@
+body {
+    background-color: #c8c8c8;
+    margin: auto;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.avatar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.avatar img {
+    width: calc(var(--index) * 10);
+    border-radius: 50%;
+    margin: auto;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 10px;
+}
+.platforms {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+}
+.social {
+    width: calc(var(--index) * 8);
+    height: calc(var(--index) * 2);
+    border-radius: 10px;
+    color: #eaeaea;
+    padding: 5px;
+    text-align: center;
+}
+.platform {
+    width: calc(var(--index) * 25);
+    height: calc(var(--index) * 2);
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px;
+    color: #eaeaea;
+}
+.social-one {
+    background-color: #0088CC;
+}
+.social-two {
+    background-color: #E4405F;
+}
+.social-three {
+    background-color: #0077FF;
+}
+.platform-one {
+    background-color: #19b7ea;
+}
+.platform-two {
+    background-color: #053eff;
+}

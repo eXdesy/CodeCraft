@@ -1,0 +1,60 @@
+/* ------------------------------  DEFOULT SETTINGS  ------------------------------ */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	color: var(--color);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: raleway;
+	font-size: calc(var(--index) * 2);
+}
+a, p {
+	text-decoration: none;
+	font-family: outfit;
+	font-size: calc(var(--index) * 1);
+}
+ul, ol, li {
+	list-style: none;
+}
+/* ------------------------------  FONTS  ------------------------------ */
+@font-face {
+	font-family: outfit;
+	src: url(../libs/fonts/outfit-regular.woff2);
+}
+@font-face {
+	font-family: raleway;
+	src: url(../libs/fonts/raleway-regular.woff2);
+}
+/* ------------------------------  VARIABLES  ------------------------------ */
+:root {
+	--index: calc(1vw + 1vh);
+	--color: #2d2d2d;
+	--transition: transform .75s cubic-bezier(.075, .5, 0, 1);
+	--gallery-gap: calc(var(--index) * 7.5)
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; /*off "overflow: hidden;" if don´t work ¨position: sticky;¨ in nav*/
+	/* -----  FOOTER IS ALWAYS BOTTOM...X  ----- */
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	margin: 0 auto;
+	/* -----  CONTENT BORDER  ----- */
+	max-width: 80%;
+}
+main {
+	/* -----  X...AFTER MAIN  ----- */
+	flex: 1 1 auto;
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+/* ------------------------------  HEADER...  ------------------------------ */
+
+/* ------------------------------  FOOTER...  ------------------------------ */

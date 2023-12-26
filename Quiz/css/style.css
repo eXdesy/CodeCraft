@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    background: linear-gradient(45deg,#042b33,#1b3e46,#325258);
+    animation: gradient 10s ease infinite;
+    background-size: 300% 300%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+}
+.board {
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.btn{
+    width: calc(var(--index) * 7);
+    height: calc(var(--index) * 3);
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.5s;
+    background: #0d8ae9;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px 5px;
+    position: relative;
+}
