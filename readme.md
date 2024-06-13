@@ -1,0 +1,2 @@
+# CodeCraft
+CodeCraft is a collection of ready-to-use webpage elements that include HTML, CSS, and JavaScript. These elements are perfect for building custom websites. Each element comes with clear and easy-to-understand documentation so that you can seamlessly integrate it into your website. So you can save time and effort in creating webpage elements from scratch and focus on designing and content creation for your website.

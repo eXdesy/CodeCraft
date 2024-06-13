@@ -1,0 +1,46 @@
+/* ------------------------------  DEFOULT SETTINGS  ------------------------------ */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: outfit;
+}
+a {
+	text-decoration: none;
+}
+ul, ol, li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+/* ------------------------------  FONTS  ------------------------------ */
+
+/* ------------------------------  VARIABLES  ------------------------------ */
+:root {
+	--index: calc(1vw + 1vh);
+	--transition: transform .75s cubic-bezier(.075, .5, 0, 1);
+	--gallery-gap: calc(var(--index) * 7.5);
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; /*off "overflow: hidden;" if don´t work ¨position: sticky;¨ in nav*/
+	/* -----  FOOTER IS ALWAYS BOTTOM...X  ----- */
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	margin: 0px auto;
+	/* -----  CONTENT BORDER  ----- */
+	max-width: 90%;
+}
+main {
+	/* -----  X...AFTER MAIN  ----- */
+	flex: 1 1 auto;
+}
+/* ------------------------------  HEADER...  ------------------------------ */
+
+/* ------------------------------  FOOTER...  ------------------------------ */
